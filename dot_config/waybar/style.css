@@ -1,0 +1,8 @@
+* {
+	font-family: 'Mononoki Nerd Font';
+}
+#waybar {
+	background-color: #110d12;
+	color: #ecdbd3;
+	border-bottom: 4px solid #e80e50;
+}

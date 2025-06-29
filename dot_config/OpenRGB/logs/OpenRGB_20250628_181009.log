@@ -1,0 +1,59 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250628_181009
+====================================================================================================
+
+23    |Info:    Found file: yes.orp attempting to validate header
+30    |Info:    Valid v4 profile found for yes
+1115  |Info:    ------------------------------------------------------
+1115  |Info:    |               Start device detection               |
+1115  |Info:    ------------------------------------------------------
+1115  |Info:    Initializing HID interfaces: Success
+1126  |Info:    ------------------------------------------------------
+1126  |Info:    |             Detecting I2C interfaces               |
+1126  |Info:    ------------------------------------------------------
+1126  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:56A2 Subsystem: 172F:3964
+1126  |Info:    Registering I2C interface: /dev/i2c-10 Device 1022:790B Subsystem: 1462:7C37
+1126  |Info:    Registering I2C interface: /dev/i2c-1 Device 8086:56A2 Subsystem: 172F:3964
+1126  |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:7C37
+1126  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1126  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1126  |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:56A2 Subsystem: 172F:3964
+1126  |Info:    Registering I2C interface: /dev/i2c-2 Device 8086:56A2 Subsystem: 172F:3964
+1126  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:56A2 Subsystem: 172F:3964
+1127  |Info:    Registering I2C interface: /dev/i2c-9 Device 1022:790B Subsystem: 1462:7C37
+1127  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1127  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1127  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1127  |Info:    Registering I2C interface: /dev/i2c-5 Device 0000:0000 Subsystem: 0000:0000
+1127  |Info:    ------------------------------------------------------
+1127  |Info:    |               Detecting I2C devices                |
+1127  |Info:    ------------------------------------------------------
+1936  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+1948  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+2632  |Info:    ------------------------------------------------------
+2632  |Info:    |               Detecting I2C PCI devices            |
+2632  |Info:    ------------------------------------------------------
+2632  |Info:    ------------------------------------------------------
+2632  |Info:    |               Detecting HID devices                |
+2632  |Info:    ------------------------------------------------------
+2696  |Info:    [MSI MPG X570 GAMING PLUS (MS-7C37)] Registering RGB controller
+2857  |Info:    [Corsair Commander Core] Registering RGB controller
+2934  |Info:    [Corsair MM800 RGB Polaris] Registering RGB controller
+3656  |Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+3656  |Info:    ------------------------------------------------------
+3656  |Info:    |            Detecting libusb HID devices            |
+3656  |Info:    ------------------------------------------------------
+3797  |Info:    ------------------------------------------------------
+3797  |Info:    |              Detecting other devices               |
+3797  |Info:    ------------------------------------------------------
+3808  |Info:    ------------------------------------------------------
+3808  |Info:    |                Detection completed                 |
+3808  |Info:    ------------------------------------------------------
+3809  |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+3809  |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+3809  |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+3809  |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+3809  |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2
+3809  |Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw9 (Receiver) 
+Wireless Index: 255

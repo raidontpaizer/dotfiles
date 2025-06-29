@@ -1,0 +1,43 @@
+* {
+	font-family: "Mononoki Nerd Font";	
+}
+window {
+margin: 0px;
+border: 1px solid #e80e50;
+background-color: #e80e50;
+}
+
+#input {
+margin: 5px;
+border: none;
+color: #ecdbd3;
+background-color: #110d12;
+}
+
+#inner-box {
+margin: 5px;
+border: none;
+background-color: #110d12;
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: #110d12;
+}
+
+#scroll {
+margin: 0px;
+border: none;
+}
+
+#text {
+margin: 5px;
+border: none;
+color: #ecdbd3;
+}
+
+#entry:selected {
+background-color: #e80e50;
+}
+

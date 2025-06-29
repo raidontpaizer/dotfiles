@@ -1,0 +1,136 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250628_143325
+====================================================================================================
+
+0     |Info:    Found file: yes.orp attempting to validate header
+0     |Info:    Valid v4 profile found for yes
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Start device detection               |
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1014  |Info:    ------------------------------------------------------
+1014  |Info:    |             Detecting I2C interfaces               |
+1014  |Info:    ------------------------------------------------------
+1014  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:56A2 Subsystem: 172F:3964
+1014  |Info:    Registering I2C interface: /dev/i2c-10 Device 1022:790B Subsystem: 1462:7C37
+1014  |Info:    Registering I2C interface: /dev/i2c-1 Device 8086:56A2 Subsystem: 172F:3964
+1014  |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:7C37
+1014  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1014  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1014  |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:56A2 Subsystem: 172F:3964
+1015  |Info:    Registering I2C interface: /dev/i2c-2 Device 8086:56A2 Subsystem: 172F:3964
+1015  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:56A2 Subsystem: 172F:3964
+1015  |Info:    Registering I2C interface: /dev/i2c-9 Device 1022:790B Subsystem: 1462:7C37
+1015  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1015  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1015  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1015  |Info:    Registering I2C interface: /dev/i2c-5 Device 0000:0000 Subsystem: 0000:0000
+1015  |Info:    ------------------------------------------------------
+1015  |Info:    |               Detecting I2C devices                |
+1015  |Info:    ------------------------------------------------------
+1817  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+1829  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+2509  |Info:    ------------------------------------------------------
+2509  |Info:    |               Detecting I2C PCI devices            |
+2509  |Info:    ------------------------------------------------------
+2510  |Info:    ------------------------------------------------------
+2510  |Info:    |               Detecting HID devices                |
+2510  |Info:    ------------------------------------------------------
+2570  |Info:    [MSI MPG X570 GAMING PLUS (MS-7C37)] Registering RGB controller
+2681  |Info:    [Corsair Commander Core] Registering RGB controller
+2758  |Info:    [Corsair MM800 RGB Polaris] Registering RGB controller
+3337  |Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+3337  |Info:    ------------------------------------------------------
+3337  |Info:    |            Detecting libusb HID devices            |
+3337  |Info:    ------------------------------------------------------
+3431  |Info:    ------------------------------------------------------
+3431  |Info:    |              Detecting other devices               |
+3431  |Info:    ------------------------------------------------------
+3441  |Info:    ------------------------------------------------------
+3441  |Info:    |                Detection completed                 |
+3441  |Info:    ------------------------------------------------------
+8371  |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+8371  |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+8371  |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+8371  |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+8371  |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2
+8371  |Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255
+11281 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+11281 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+11281 |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+11281 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+11281 |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2
+11281 |Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255
+11421 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+11421 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+11421 |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+11421 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+11421 |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2
+11421 |Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255
+11599 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+11599 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+11599 |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+11599 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+11599 |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2
+11599 |Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255
+11758 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+11758 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+11758 |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+11758 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+11758 |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2
+11758 |Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255
+11899 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+11899 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+11899 |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+11899 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+11899 |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2
+11899 |Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255
+12057 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+12057 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+12057 |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+12057 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+12057 |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2
+12057 |Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255
+12213 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+12213 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+12213 |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+12213 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+12213 |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2
+12213 |Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255
+12367 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+12367 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+12367 |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+12367 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+12367 |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2
+12367 |Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255
+12517 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+12517 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+12517 |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+12517 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+12517 |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2
+12517 |Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255
+14013 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+14013 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+14013 |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+14013 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+14013 |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2
+14013 |Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255
+14269 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+14269 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+14269 |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+14269 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+14269 |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2
+14269 |Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255

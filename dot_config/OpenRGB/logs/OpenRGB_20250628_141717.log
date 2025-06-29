@@ -1,0 +1,85 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250628_141717
+====================================================================================================
+
+1002  |Info:    Saving detector settings
+1003  |Info:    ------------------------------------------------------
+1003  |Info:    |               Start device detection               |
+1003  |Info:    ------------------------------------------------------
+1003  |Info:    Initializing HID interfaces: Success
+1016  |Info:    ------------------------------------------------------
+1016  |Info:    |             Detecting I2C interfaces               |
+1016  |Info:    ------------------------------------------------------
+1016  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:56A2 Subsystem: 172F:3964
+1016  |Info:    Registering I2C interface: /dev/i2c-10 Device 1022:790B Subsystem: 1462:7C37
+1016  |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:7C37
+1016  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1016  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-2 Device 8086:56A2 Subsystem: 172F:3964
+1016  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:56A2 Subsystem: 172F:3964
+1016  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1016  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    ------------------------------------------------------
+1016  |Info:    |               Detecting I2C devices                |
+1016  |Info:    ------------------------------------------------------
+1575  |Info:    ------------------------------------------------------
+1575  |Info:    |               Detecting I2C PCI devices            |
+1575  |Info:    ------------------------------------------------------
+1576  |Info:    ------------------------------------------------------
+1576  |Info:    |               Detecting HID devices                |
+1576  |Info:    ------------------------------------------------------
+1637  |Info:    [MSI MPG X570 GAMING PLUS (MS-7C37)] Registering RGB controller
+1751  |Info:    [Corsair Commander Core] Registering RGB controller
+1829  |Info:    [Corsair MM800 RGB Polaris] Registering RGB controller
+5546  |Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+5546  |Info:    ------------------------------------------------------
+5546  |Info:    |            Detecting libusb HID devices            |
+5546  |Info:    ------------------------------------------------------
+5640  |Info:    ------------------------------------------------------
+5640  |Info:    |              Detecting other devices               |
+5640  |Info:    ------------------------------------------------------
+5650  |Info:    ------------------------------------------------------
+5650  |Info:    |                Detection completed                 |
+5650  |Info:    ------------------------------------------------------
+5650  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+18784 |Info:    ------------------------------------------------------
+18784 |Info:    |               Start device detection               |
+18784 |Info:    ------------------------------------------------------
+18784 |Info:    Initializing HID interfaces: Success
+18795 |Info:    ------------------------------------------------------
+18795 |Info:    |             Detecting I2C interfaces               |
+18795 |Info:    ------------------------------------------------------
+18795 |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:56A2 Subsystem: 172F:3964
+18795 |Info:    Registering I2C interface: /dev/i2c-10 Device 1022:790B Subsystem: 1462:7C37
+18795 |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:7C37
+18795 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+18795 |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+18795 |Info:    Registering I2C interface: /dev/i2c-2 Device 8086:56A2 Subsystem: 172F:3964
+18795 |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:56A2 Subsystem: 172F:3964
+18795 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+18796 |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+18796 |Info:    ------------------------------------------------------
+18796 |Info:    |               Detecting I2C devices                |
+18796 |Info:    ------------------------------------------------------
+19354 |Info:    ------------------------------------------------------
+19354 |Info:    |               Detecting I2C PCI devices            |
+19354 |Info:    ------------------------------------------------------
+19355 |Info:    ------------------------------------------------------
+19355 |Info:    |               Detecting HID devices                |
+19355 |Info:    ------------------------------------------------------
+19417 |Info:    [MSI MPG X570 GAMING PLUS (MS-7C37)] Registering RGB controller
+19526 |Info:    [Corsair Commander Core] Registering RGB controller
+19606 |Info:    [Corsair MM800 RGB Polaris] Registering RGB controller
+20504 |Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Unable add this device due to missing RGB Effects Feature
+22481 |Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+22481 |Info:    ------------------------------------------------------
+22481 |Info:    |            Detecting libusb HID devices            |
+22481 |Info:    ------------------------------------------------------
+22566 |Info:    ------------------------------------------------------
+22566 |Info:    |              Detecting other devices               |
+22566 |Info:    ------------------------------------------------------
+22567 |Info:    ------------------------------------------------------
+22567 |Info:    |                Detection completed                 |
+22567 |Info:    ------------------------------------------------------
+22567 |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>

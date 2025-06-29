@@ -1,0 +1,61 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250628_143241
+====================================================================================================
+
+0     |Info:    Found file: yes.orp attempting to validate header
+0     |Info:    Valid v4 profile found for yes
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Start device detection               |
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1013  |Info:    ------------------------------------------------------
+1013  |Info:    |             Detecting I2C interfaces               |
+1013  |Info:    ------------------------------------------------------
+1013  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:56A2 Subsystem: 172F:3964
+1013  |Info:    Registering I2C interface: /dev/i2c-10 Device 1022:790B Subsystem: 1462:7C37
+1013  |Info:    Registering I2C interface: /dev/i2c-1 Device 8086:56A2 Subsystem: 172F:3964
+1014  |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:7C37
+1014  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1014  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1014  |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:56A2 Subsystem: 172F:3964
+1014  |Info:    Registering I2C interface: /dev/i2c-2 Device 8086:56A2 Subsystem: 172F:3964
+1014  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:56A2 Subsystem: 172F:3964
+1014  |Info:    Registering I2C interface: /dev/i2c-9 Device 1022:790B Subsystem: 1462:7C37
+1014  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1014  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1014  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1014  |Info:    Registering I2C interface: /dev/i2c-5 Device 0000:0000 Subsystem: 0000:0000
+1014  |Info:    ------------------------------------------------------
+1014  |Info:    |               Detecting I2C devices                |
+1014  |Info:    ------------------------------------------------------
+1820  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+1832  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+2512  |Info:    ------------------------------------------------------
+2512  |Info:    |               Detecting I2C PCI devices            |
+2512  |Info:    ------------------------------------------------------
+2513  |Info:    ------------------------------------------------------
+2513  |Info:    |               Detecting HID devices                |
+2513  |Info:    ------------------------------------------------------
+2573  |Info:    [MSI MPG X570 GAMING PLUS (MS-7C37)] Registering RGB controller
+2681  |Info:    [Corsair Commander Core] Registering RGB controller
+2760  |Info:    [Corsair MM800 RGB Polaris] Registering RGB controller
+2760  |Info:    ------------------------------------------------------
+2760  |Info:    |            Detecting libusb HID devices            |
+2760  |Info:    ------------------------------------------------------
+2855  |Info:    ------------------------------------------------------
+2855  |Info:    |              Detecting other devices               |
+2855  |Info:    ------------------------------------------------------
+2865  |Info:    ------------------------------------------------------
+2865  |Info:    |                Detection completed                 |
+2865  |Info:    ------------------------------------------------------
+40864 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+40864 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+40864 |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+40864 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+40864 |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2
+41120 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5A
+41120 |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-8, address 0x5B
+41120 |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw1
+41120 |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw4
+41120 |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw2

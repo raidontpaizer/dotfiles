@@ -1,0 +1,61 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250628_142333
+====================================================================================================
+
+0     |Info:    Found file: yes.orp attempting to validate header
+0     |Info:    Valid v4 profile found for yes
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Start device detection               |
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1014  |Info:    ------------------------------------------------------
+1014  |Info:    |             Detecting I2C interfaces               |
+1014  |Info:    ------------------------------------------------------
+1014  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:56A2 Subsystem: 172F:3964
+1014  |Info:    Registering I2C interface: /dev/i2c-10 Device 1022:790B Subsystem: 1462:7C37
+1014  |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:7C37
+1014  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1014  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1014  |Info:    Registering I2C interface: /dev/i2c-2 Device 8086:56A2 Subsystem: 172F:3964
+1015  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:56A2 Subsystem: 172F:3964
+1015  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1015  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1015  |Info:    ------------------------------------------------------
+1015  |Info:    |               Detecting I2C devices                |
+1015  |Info:    ------------------------------------------------------
+1575  |Info:    ------------------------------------------------------
+1575  |Info:    |               Detecting I2C PCI devices            |
+1575  |Info:    ------------------------------------------------------
+1575  |Info:    ------------------------------------------------------
+1575  |Info:    |               Detecting HID devices                |
+1575  |Info:    ------------------------------------------------------
+1636  |Info:    [MSI MPG X570 GAMING PLUS (MS-7C37)] Registering RGB controller
+1788  |Info:    [Corsair Commander Core] Registering RGB controller
+1871  |Info:    [Corsair MM800 RGB Polaris] Registering RGB controller
+3610  |Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+3610  |Info:    ------------------------------------------------------
+3610  |Info:    |            Detecting libusb HID devices            |
+3610  |Info:    ------------------------------------------------------
+3704  |Info:    ------------------------------------------------------
+3704  |Info:    |              Detecting other devices               |
+3704  |Info:    ------------------------------------------------------
+3715  |Info:    ------------------------------------------------------
+3715  |Info:    |                Detection completed                 |
+3715  |Info:    ------------------------------------------------------
+3715  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+5556  |Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw4
+5556  |Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw8
+5556  |Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw0
+5556  |Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255
+120586|Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw4
+120586|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw8
+120586|Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw0
+120586|Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255
+120838|Info:    Profile loading: Succeeded for MSI MPG X570 GAMING PLUS (MS-7C37) @ HID: /dev/hidraw4
+120838|Info:    Profile loading: Succeeded for Corsair Commander Core @ HID: /dev/hidraw8
+120838|Info:    Profile loading: Succeeded for Corsair MM800 RGB Polaris @ HID: /dev/hidraw0
+120838|Info:    Profile loading: Succeeded for G502 LIGHTSPEED Wireless Gaming Mouse @ HID: /dev/hidraw11 (Receiver) 
+Wireless Index: 255
