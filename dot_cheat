@@ -1,0 +1,21 @@
+KEYBIND CHEATSHEET: ---- MOD = "Windows Key"
+
+-- GENERAL BINDS --
+MOD + SHIFT + Q -        EXIT HYPRLAND
+MOD + SHIFT + R -        RESTART WAYBAR
+MOD + L -                LOCKSCREEN 
+MOD + W -                OPENS TERMINAL
+MOD + Q -                KILL ACTIVE WINDOW
+MOD + F -                TOGGLE FLOATING WINDOW
+MOD + SHIFT + F -        TOGGLE FULLSCREEN WINDOW
+MOD + G -                CENTER FLOATING WINDOW
+MOD + H -                MOVE WINDOW TO BOTTOM OF LEFT DISPLAY
+MOD + P -                PSEUDO WINDOW
+MOD + J -                TOGGLE SPLIT
+MOD + SHIFT + S -        SCREENSHOT
+
+-- TECHNICALLY PROGRAMS --
+MOD + B -                OPEN FIREFOX
+MOD + N -                OPEN DOLPHIN(FILE MANAGER)
+MOD + D -                LAUNCH WOFI
+MOD + O -                OPEN CUBIC PLAYER
