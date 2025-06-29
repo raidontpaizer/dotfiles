@@ -110,3 +110,4 @@ alias mc="mc --nocolor"
 alias med="micro"
 alias sudo='sudo '
 fastfetch
+export EDITOR='micro'
