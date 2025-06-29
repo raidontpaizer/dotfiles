@@ -109,5 +109,4 @@ alias envs="ssh nandraid@envs.net -i /home/lain/.ssh/id_envs"
 alias mc="mc --nocolor"
 alias med="micro"
 alias sudo='sudo '
-wal -i /home/lain/.wal/ejoe.png -q
 fastfetch
