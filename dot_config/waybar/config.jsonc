@@ -42,7 +42,7 @@
     },
     "pulseaudio": {
         "format": "VOL:{volume}%┃",
-	"on-click": "sonusmix"
+	"on-click": "pavucontrol"
         },
 	 "network": {
         "format-wifi": "{ifname}:{signalStrength}%┃",
