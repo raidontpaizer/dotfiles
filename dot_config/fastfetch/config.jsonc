@@ -16,7 +16,7 @@
        "break",
 	    {
             "type": "custom",
-            "format": "┏━━━━━━━━━━━━━━━━RAIDFETCH━━━━━━━━━━━━━━━━┓"
+            "format": "┏━NANDRAID━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
         },
         {
             "type": "title",
