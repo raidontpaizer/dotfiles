@@ -1,9 +1,11 @@
+@import url('../../.cache/wal/colors-waybar.css');
+
 * {
 	font-family: 'Mononoki Nerd Font';
 	font-size: 14px;
 }
 #waybar {
-	background-color: #051820;
-	color: #A3D7E3;
-	border-bottom: 4px solid #106B92;
+	background-color: @color0;
+	color: @foreground;
+	border-bottom: 4px solid @color1;
 }

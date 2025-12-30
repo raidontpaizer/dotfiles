@@ -1,0 +1,28 @@
+{
+    "checksum": "d52ca2591c6bdccc8cde2d9139b127b5",
+    "wallpaper": "/home/lain/G8khgfgXcAEBNZr.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#210e1c",
+        "foreground": "#c7c2c6",
+        "cursor": "#c7c2c6"
+    },
+    "colors": {
+        "color0": "#210e1c",
+        "color1": "#F5A159",
+        "color2": "#F7D96D",
+        "color3": "#7A778D",
+        "color4": "#A3949D",
+        "color5": "#C5B9BB",
+        "color6": "#F8CC99",
+        "color7": "#c7c2c6",
+        "color8": "#725d6d",
+        "color9": "#F5A159",
+        "color10": "#F7D96D",
+        "color11": "#7A778D",
+        "color12": "#A3949D",
+        "color13": "#C5B9BB",
+        "color14": "#F8CC99",
+        "color15": "#c7c2c6"
+    }
+}

@@ -15,7 +15,7 @@
     ],
     "modules-right": [
         "tray",
-	"pulseaudio",
+	"wireplumber",
         "network",
         "cpu",
         "memory",
@@ -40,10 +40,11 @@
     "memory": {
         "format": "MEM:{}%┃"
     },
-    "pulseaudio": {
-        "format": "VOL:{volume}%┃",
-	"on-click": "pavucontrol"
-        },
+  "wireplumber": {
+      "format": "VOL:{volume}%┃",
+      "on-click": "pavucontrol",
+      "scroll-step": 5
+  },
 	 "network": {
         "format-wifi": "{ifname}:{signalStrength}%┃",
         "format-disconnected": "Disconnected┃"

@@ -1,0 +1,24 @@
+wallpaper: "/home/lain/mpv-shot0002.jpg"
+
+special:
+    background: "#0f1c22"
+    foreground: "#c3c6c7"
+    cursor: "#c3c6c7"
+
+colors:
+    color0: "#0f1c22"
+    color1: "#116B92"
+    color2: "#4574A4"
+    color3: "#1295A5"
+    color4: "#6193B0"
+    color5: "#0EA8D6"
+    color6: "#0DD6EA"
+    color7: "#c3c6c7"
+    color8: "#5e6c73"
+    color9: "#116B92"
+    color10: "#4574A4"
+    color11: "#1295A5"
+    color12: "#6193B0"
+    color13: "#0EA8D6"
+    color14: "#0DD6EA"
+    color15: "#c3c6c7"

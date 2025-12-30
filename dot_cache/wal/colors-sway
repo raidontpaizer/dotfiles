@@ -1,0 +1,21 @@
+set $wallpaper /home/lain/mpv-shot0002.jpg
+
+set $background #0f1c22
+set $foreground #c3c6c7
+
+set $color0 #0f1c22
+set $color1 #116B92
+set $color2 #4574A4
+set $color3 #1295A5
+set $color4 #6193B0
+set $color5 #0EA8D6
+set $color6 #0DD6EA
+set $color7 #c3c6c7
+set $color8 #5e6c73
+set $color9 #116B92
+set $color10 #4574A4
+set $color11 #1295A5
+set $color12 #6193B0
+set $color13 #0EA8D6
+set $color14 #0DD6EA
+set $color15 #c3c6c7

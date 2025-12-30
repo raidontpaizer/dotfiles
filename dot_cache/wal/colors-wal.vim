@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/lain/mpv-shot0002.jpg"
+let background = "#0f1c22"
+let foreground = "#c3c6c7"
+let cursor     = "#c3c6c7"
+
+" Colors
+let color0  = "#0f1c22"
+let color1  = "#116B92"
+let color2  = "#4574A4"
+let color3  = "#1295A5"
+let color4  = "#6193B0"
+let color5  = "#0EA8D6"
+let color6  = "#0DD6EA"
+let color7  = "#c3c6c7"
+let color8  = "#5e6c73"
+let color9  = "#116B92"
+let color10 = "#4574A4"
+let color11 = "#1295A5"
+let color12 = "#6193B0"
+let color13 = "#0EA8D6"
+let color14 = "#0DD6EA"
+let color15 = "#c3c6c7"
