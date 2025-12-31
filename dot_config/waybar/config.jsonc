@@ -10,11 +10,11 @@
 //	"margin-left":10,
 	
     "modules-left": [
-		"clock",
+		"hyprland/workspaces",
         "hyprland/window"
     ],
     "modules-center": [
-        "hyprland/workspaces"
+        "clock"
     ],
     "modules-right": [
         "tray",
