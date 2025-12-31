@@ -4,14 +4,17 @@
     // "position": "bottom", // Waybar position (top|bottom|left|right)
     "height": 30, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
-    "spacing": 4, // Gaps between modules (4px)
+    "spacing": 8, // Gaps between modules (4px)
     // Choose the order of the modules
+
+//	"margin-left":10,
+	
     "modules-left": [
-        "hyprland/workspaces",
-	"hyprland/window"
+		"clock",
+        "hyprland/window"
     ],
     "modules-center": [
-        "clock"
+        "hyprland/workspaces"
     ],
     "modules-right": [
         "tray",
@@ -19,11 +22,12 @@
         "network",
         "cpu",
         "memory",
-	"custom/power"
+	"custom/cheat",
+		"custom/theme-switcher"
     ],
     // Modules configuration
     "tray": {
-        // "icon-size": 21,
+        //"icon-size": 21,
         "spacing": 10
     },
     "clock": {
@@ -34,24 +38,36 @@
         "format-alt": "{:%m-%d-%Y}"
     },
     "cpu": {
-        "format": "CPU: {usage}%┃",
+        "format": "CPU: {usage}%",
         "tooltip": false
     },
     "memory": {
-        "format": "MEM:{}%┃"
+        "format": "MEM:{}%"
     },
   "wireplumber": {
-      "format": "VOL:{volume}%┃",
+      "format": "VOL:{volume}%",
       "on-click": "pavucontrol",
       "scroll-step": 5
   },
 	 "network": {
-        "format-wifi": "{ifname}:{signalStrength}%┃",
-        "format-disconnected": "Disconnected┃"
+        "format-wifi": "{ifname}:{signalStrength}%",
+        "format-disconnected": "Disconnected"
     },
-    "custom/power": {
-      	"format":"   ",
+    "custom/cheat": {
+      	"format":"",
        	"on-click": "foot -e less /home/lain/.cheat",
       	"tooltip": false
-   }
+   },
+   "custom/theme-switcher": {
+           "format": " ",
+           "tooltip": false,
+           "on-click": "~/.config/waybar/change-theme.sh",
+       },
+    "hyprland/workspaces": {
+           "format": "{name}: {icon}",
+           "format-icons": {
+             "active": "",
+             "default": ""
+           }
+    }
 }

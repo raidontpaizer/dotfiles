@@ -5,7 +5,24 @@
 	font-size: 14px;
 }
 #waybar {
-	background-color: @color0;
+	background: transparent;
+	color: @foreground;
+}
+#workspaces,#window, #clock, #tray, #network, #wireplumber, #cpu, #memory, #custom-cheat, #custom-theme-switcher {
+	background-color: @color0;	
 	color: @foreground;
 	border-bottom: 4px solid @color1;
+	padding: 1px 15px;
+	margin: 5px 5px;
+	/* border-radius: */
+}
+#workspaces button {
+  color: @foreground;
+  border-radius: 5px; /* Workspaces buttons are always rounded */
+  padding: 0.3rem 0.6rem;
+  background: transparent;
+  transition: all 0.2s ease-in-out;
+}
+#workspaces button:hover {
+  color: @foreground;
 }
