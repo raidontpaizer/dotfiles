@@ -8,14 +8,14 @@
 	background: transparent;
 	color: @foreground;
 }
-#workspaces,#window, #clock, #tray, #network, #wireplumber, #cpu, #memory, #custom-cheat, #custom-theme-switcher {
+#workspaces,#window, #clock, #tray, #network, #wireplumber, #cpu, #memory, #custom-theme-switcher, #custom-cava {
 	background-color: @color0;	
 	color: @foreground;
 	border-bottom: 4px solid @color1;
 	padding: 1px 15px;
 	margin-top: 6px;
-	margin-left: 6px;
-	margin-right: 6px;
+	margin-left: 8px;
+	margin-right: 8px;
 	margin-bottom: 0px;
 	border-radius: 3px;
 }
