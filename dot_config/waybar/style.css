@@ -19,6 +19,9 @@
 	margin-bottom: 0px;
 	border-radius: 3px;
 }
+#custom-theme-switcher {
+	color: @color1;
+}
 #workspaces button {
   color: @foreground;
   border-radius: 5px; /* Workspaces buttons are always rounded */
