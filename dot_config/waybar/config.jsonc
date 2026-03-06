@@ -11,6 +11,7 @@
 	
     "modules-left": [
 		"hyprland/workspaces",
+		// "wlr/taskbar",
         "custom/cava"
     ],
     "modules-center": [
@@ -71,5 +72,11 @@
      "custom/cava": {
    		 "exec": "~/.config/waybar/cava.sh",
     	"format": "{}",
-      }
+      },
+      "wlr/taskbar": {
+              "icon-size": 24,
+              "on-click": "activate",
+              "on-click-right": "minimize",
+              "format": "{icon}"
+          }
 }
