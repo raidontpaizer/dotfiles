@@ -1,6 +1,6 @@
 cat ~/.cache/wal/sequences
 clear
-export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH/home/lain/.config/hypr/scripts:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH/home/nano/.config/hypr/scripts:$PATH
 export GRIM_DEFAULT_DIR="$HOME/Pictures"
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="cdimascio-lambda"
@@ -11,8 +11,8 @@ source $ZSH/oh-my-zsh.sh
 
 alias vi="vim"
 alias hyc="micro ~/.config/hypr/hyprland.conf"
-alias ocfstart=". /home/lain/OpenSeeFace/ocfstart"
-alias envs="ssh nandraid@envs.net -i /home/lain/.ssh/id_envs"
+alias ocfstart=". /home/nano/OpenSeeFace/ocfstart"
+alias envs="ssh nandraid@envs.net -i /home/nano/.ssh/id_envs"
 alias mc="mc --nocolor"
 alias med="micro"
 alias sudo='sudo '

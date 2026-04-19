@@ -11,7 +11,7 @@
 	
     "modules-left": [
 		"hyprland/workspaces",
-		// "wlr/taskbar",
+		// "wlr/taskbar"
         "custom/cava"
     ],
     "modules-center": [
@@ -58,7 +58,7 @@
       	"tooltip": false
    },
    "custom/theme-switcher": {
-           "format": " ",
+           "format": " ",
            "tooltip": false,
            "on-click": "~/.config/waybar/change-theme.sh",
        },
